@@ -1,0 +1,48 @@
+body {
+  background: var(--branco);
+}
+
+a:focus,
+a:hover,
+a:active,
+a:visited,
+button:focus,
+button:hover,
+button:active,
+button:visited {
+  color: inherit;
+  text-decoration: none;
+  outline: none;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  margin: 0;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+.container {
+  width: 100%;
+  max-width: 1202px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.container:before,
+.container:after {
+  display: none;
+}

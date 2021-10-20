@@ -1,0 +1,1118 @@
+@media (max-width: 1700px) {
+  div#colapse-curses h2 button {
+    padding: 0 4rem;
+  }
+  .accordion-body {
+    padding: 0 4rem 4rem;
+  }
+  section.why .container .steps-why {
+    justify-content: space-around;
+    max-width: 60%;
+  }
+}
+
+@media (max-width: 1200px) {
+  section.intro .slide-intro .slick-dots {
+    bottom: 5rem;
+  }
+  section.solutions .container .box-solution {
+    max-width: 25%;
+  }
+  section.solutions .container .box-solution p {
+    width: 100%;
+  }
+  section.contact .container form .form-group {
+    max-width: 23.9%;
+  }
+  section.contact .container form .form-group .send-form {
+    padding: 0 4rem;
+  }
+  footer .container {
+    justify-content: space-around;
+  }
+  section.s-all {
+    background-position: 50% 0;
+  }
+  section.s-testimonials {
+    padding: 5rem 0;
+    background-color: var(--cinza-form);
+  }
+  section.s-diretriz .container {
+    justify-content: space-around;
+  }
+  section.s-diretriz .container .box-diretriz {
+    max-width: 45%;
+  }
+  section.s-diretriz .container .box-diretriz .content-diretriz p {
+    font-size: 1.5rem;
+  }
+  section.s-diretriz .container .box-diretriz .content-diretriz p strong {
+    font-size: 1.7rem;
+  }
+  section.s-testimonials .container .slide-testimonials .card-test {
+    padding: 4.2rem;
+  }
+  section.s-form .container {
+    justify-content: space-around;
+  }
+  form.form-auden {
+    max-width: 67%;
+  }
+  form.form-auden .form-group {
+    max-width: 32%;
+  }
+  section.s-tb-pos .container {
+    justify-content: space-around;
+  }
+  section.s-tb-pos .container .heading-pos {
+    text-align: center;
+  }
+  section.s-tb-pos .container .box-cards-area {
+    max-width: 70%;
+  }
+  section.s-tb-pos .container .box-cards-area .card-area {
+    max-width: 48%;
+  }
+  div#colapse-curses h2 button {
+    font-size: 4rem;
+  }
+  .accordion-body .itens-curse {
+    max-width: 100%;
+    margin-bottom: 0;
+    justify-content: flex-start;
+  }
+  .accordion-body .itens-curse .box-iten-curse {
+    max-width: 100%;
+    width: 100%;
+    border-bottom: 0.1rem solid var(--cinza-square);
+    margin: 0;
+    padding: 1.5rem 0;
+  }
+  .accordion-body .action-curse {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+  }
+  section.why {
+    padding: 8rem 0;
+  }
+  section.why .container {
+    flex-direction: column;
+  }
+  section.why .container .title-why {
+    max-width: 90%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  section.why .container .title-why hr {
+    margin: 1.5rem auto;
+  }
+  section.why .container .steps-why {
+    justify-content: space-around;
+    max-width: 100%;
+    margin-top: 5rem;
+  }
+  .buy-curse .coupon form.form-auden {
+    max-width: 90%;
+  }
+  .action-buy-curse .price {
+    margin-bottom: 1rem;
+  }
+  .action-buy-curse .price .old-price h3,
+  .action-buy-curse .price .new-price h3 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 991px) {
+  header main.header-main .container .search {
+    max-width: 20rem;
+  }
+  section.solutions .container {
+    flex-wrap: wrap;
+  }
+  section.solutions .container .box-solution {
+    max-width: 50%;
+  }
+  section.solutions .container .box-solution:nth-child(2) {
+    border-right: 0;
+  }
+  section.solutions .container .box-solution:nth-child(3),
+  section.solutions .container .box-solution:nth-child(4) {
+    border-top: 0.1rem solid var(--cinza-border);
+  }
+  section.solutions .container .box-solution:nth-child(3):hover,
+  section.solutions .container .box-solution:nth-child(4):hover {
+    border-top: 0.1rem solid transparent;
+  }
+  section.video .container .video-overlay {
+    height: 37rem;
+  }
+  section.contact .container form {
+    flex-direction: column;
+    width: 100%;
+  }
+  section.contact .container form .form-group {
+    max-width: 80%;
+    margin: 0 auto 1rem;
+    text-align: center;
+  }
+  section.contact .container form .form-group .send-form {
+    width: 100%;
+  }
+  footer .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .container .left-footer {
+    margin-bottom: 10rem;
+  }
+  footer .container .left-footer .row-info .icon-footer {
+    margin-right: 5rem;
+  }
+  .copy {
+    text-align: center;
+  }
+  section.s-testimonials .container .slide-testimonials .card-test {
+    padding: 3rem;
+    height: 32rem;
+  }
+  section.s-testimonials .container .slide-testimonials .card-test p {
+    line-height: 2.5rem;
+    font-size: 1.5rem;
+  }
+  section.s-diretriz {
+    padding: 5rem 0;
+  }
+  section.s-diretriz .container .heading-dir h2 {
+    max-width: 50rem;
+    text-align: center;
+  }
+  section.s-diretriz .container .box-diretriz .content-diretriz p {
+    margin: 0 0 3rem;
+  }
+  section.s-all {
+    padding: 5rem 2rem;
+    background-position: 25%;
+  }
+  section.s-all .content-all p strong {
+    font-size: inherit;
+  }
+  form.form-auden {
+    max-width: 55%;
+  }
+  section.s-tb-pos .container .box-cards-area .card-area h4 {
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+  }
+  section.s-tb-pos .container .box-cards-area .card-area p {
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+  section.services .container .box-services:nth-child(2) {
+    transform: scale(1);
+  }
+  section.s-curses {
+    padding: 4rem 0;
+  }
+  div#colapse-curses .accordion-item {
+    margin-bottom: 3rem;
+    border: 0;
+    box-shadow: 0 1.2rem 3.2rem rgb(0 0 0 / 10%);
+    border-radius: 1rem;
+  }
+  .modal-body .itens-curse {
+    flex-direction: column;
+  }
+  .modal-body .itens-curse .box-itens-curse {
+    max-width: 100%;
+    margin-bottom: 2.5rem;
+  }
+  .modal-body .itens-curse .box-itens-curse:last-child {
+    margin-bottom: 0;
+  }
+  .info-itens h4 {
+    margin: 0;
+    font-size: 2rem;
+    color: #a7a7a7;
+  }
+  .action-buy-curse .price .old-price h3,
+  .action-buy-curse .price .new-price h3 {
+    font-size: 2.5rem;
+  }
+  .content-enem form.form-auden-modal .buy-curse .call-to-matricula {
+    max-width: 260px;
+  }
+  .content-enem .group-form input.btn-enem {
+    max-width: 260px;
+  }
+  .content-enem form.form-auden-modal .buy-curse .content-lock,
+  .content-enem form.form-auden-modal .buy-curse .content-lock p {
+    font-size: 1.3rem;
+  }
+  section.s-testimonials .container .action-bar {
+    flex-direction: column;
+    text-align: center;
+  }
+  section.s-testimonials .container .action-bar h2 {
+    margin-bottom: 4rem;
+  }
+  div#modal-video .modal-body .video-auden {
+    height: 52.3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  header .topbar .container nav.contact-topbar ul li:first-child {
+    margin-right: 3rem;
+  }
+  header .topbar .container .support-topbar a span {
+    font-size: 1.4rem;
+  }
+  header main.header-main .container nav.actions-header ul li a span {
+    display: none;
+  }
+  header nav.menu-primary ul li {
+    margin-right: 3rem;
+  }
+  section.services .container {
+    flex-wrap: wrap;
+  }
+  section.services .container .box-services {
+    max-width: 47%;
+    border-radius: 1rem !important;
+    margin: 0 auto;
+    box-shadow: 0 0.9rem 1.8rem rgb(0 0 0 / 10%);
+    margin-top: 2rem;
+  }
+  section.services .container .box-services:hover {
+    transform: scale(1);
+  }
+  section.services .container .box-services:nth-child(2) {
+    transform: scale(1);
+  }
+  section.s-diretriz {
+    padding: 8rem 0;
+  }
+  section.s-diretriz .container .box-diretriz {
+    max-width: 90%;
+  }
+  section.s-diretriz .container .box-diretriz:nth-child(3) {
+    margin-bottom: 16rem;
+  }
+  section.s-diretriz .container .box-diretriz .content-diretriz {
+    align-items: flex-start;
+  }
+  section.s-diretriz .container .box-diretriz .content-diretriz h3 {
+    max-width: 100%;
+    width: 100%;
+    text-align: left;
+    justify-content: flex-start;
+    margin-bottom: 2.5rem;
+  }
+  form.form-auden .form-group {
+    max-width: 100%;
+    margin-bottom: 1.7rem;
+  }
+  section.s-form {
+    padding: 4rem 2rem;
+  }
+  section.s-form .container {
+    justify-content: center;
+    flex-direction: column;
+  }
+  form.form-auden {
+    max-width: 100%;
+    margin-top: 5rem;
+  }
+  .content-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .content-form .box-content {
+    margin: 0 7rem;
+  }
+  section.s-tb-pos .container .heading-pos {
+    margin-bottom: 5rem;
+    max-width: 50rem;
+    margin: 0 auto;
+  }
+  section.destaques {
+    padding: 5rem 0 5rem;
+  }
+  section.why .container .title-why p {
+    max-width: 34rem;
+    margin: 0 auto;
+  }
+  .buy-curse {
+    flex-direction: column;
+  }
+  .buy-curse .coupon form.form-auden {
+    max-width: 90%;
+    margin: 0;
+  }
+  .buy-curse .coupon form.form-auden {
+    max-width: 100%;
+    margin: 0;
+  }
+  .buy-curse .coupon {
+    max-width: 100%;
+    width: 100%;
+  }
+  .action-buy-curse {
+    max-width: 100%;
+    width: 100%;
+    margin-top: 4rem;
+  }
+  .action-buy-curse .price .old-price h3,
+  .action-buy-curse .price .new-price h3 {
+    font-size: 4rem;
+  }
+  .info-itens h4 {
+    font-size: 1.6rem;
+  }
+  .vagas strong {
+    font-size: 1.6rem;
+  }
+  .modal-auden .modal-dialog .modal-content .modal-header h2 {
+    font-size: 2rem;
+  }
+  form.form-auden-modal .buy-curse .content-lock {
+    margin-bottom: 3rem;
+  }
+  .modal-auden .modal-dialog .modal-content .modal-header .steps-title h2 {
+    font-size: 1.6rem;
+  }
+  .box-select-curse {
+    padding: 3rem;
+  }
+  .box-select-curse .title-curse-box h3 {
+    font-size: 1.8rem;
+  }
+  .box-select-curse .price-curse-box .new-price h3 {
+    font-size: 1.8rem;
+  }
+  .content-enem form.form-auden-modal .buy-curse .content-lock,
+  .content-enem form.form-auden-modal .buy-curse .content-lock p {
+    text-align: center;
+  }
+  .content-enem form.form-auden-modal .buy-curse .call-to-matricula {
+    max-width: 100%;
+  }
+  .content-enem form.form-auden-modal .group-form input[type="text"] {
+    padding: 0 1.5rem;
+  }
+  .content-enem .group-form input.btn-enem {
+    max-width: 100%;
+    position: relative;
+    border-radius: 1rem;
+    margin-top: 1.5rem;
+  }
+  .content-redacao .form-auden-modal label {
+    padding: 2rem;
+  }
+  div#modal-video .modal-body .video-auden {
+    height: 35.3rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .ajust-margin {
+    margin-top: 6rem;
+  }
+  header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 2021;
+  }
+  header .topbar {
+    display: none;
+  }
+  header main.header-main {
+    z-index: 2021;
+  }
+  header main.header-main .container .logo img {
+    width: 85%;
+  }
+  header main.header-main .container .search {
+    display: block;
+    order: 5;
+    position: absolute;
+    bottom: 0;
+    max-width: 100%;
+    left: 0;
+    border-radius: 0;
+    opacity: 0;
+    z-index: -9;
+    transition: all 0.3s ease;
+  }
+  header main.header-main .container .open-search {
+    z-index: 99;
+    opacity: 1;
+    bottom: -3.4rem;
+  }
+  header main.header-main .container .search input {
+    border-radius: 0;
+  }
+  header main.header-main .container nav.actions-header {
+    display: none;
+  }
+  header main.header-main .container .actions-mobile {
+    display: flex;
+  }
+  section.intro .slide-intro .slick-dots {
+    bottom: 2rem;
+  }
+  section.intro .slide-intro .slick-dots li {
+    width: 2.5rem;
+    height: 0.3rem;
+  }
+  section.solutions .container .box-solution .call-to-action a {
+    margin-top: 3rem;
+  }
+  section.solutions .container .box-solution {
+    height: 42rem;
+    padding: 0 3rem;
+  }
+  section.video .container .video-overlay {
+    height: 25rem;
+  }
+  section.services .container .box-services {
+    max-width: 100%;
+  }
+  section.services .container .box-services:nth-child(2) {
+    transform: scale(1);
+  }
+  section.contact .container form .form-group {
+    max-width: 90%;
+  }
+  footer {
+    padding: 5rem 2rem;
+  }
+  footer .container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  footer .container .right-footer {
+    flex-direction: column;
+    justify-content: center;
+  }
+  footer .container .right-footer .colunm-footer {
+    margin-bottom: 10rem;
+  }
+  footer .container .right-footer .colunm-footer:last-child {
+    margin-bottom: 0;
+  }
+  section.s-diretriz {
+    padding: 5rem 0;
+  }
+  section.s-diretriz .container .box-diretriz {
+    margin-bottom: 8rem;
+  }
+  section.s-diretriz .container .box-diretriz:nth-child(3) {
+    margin-bottom: 8rem;
+  }
+  section.s-all .content-all h2 {
+    font-size: 2.5rem;
+    position: relative;
+  }
+  section.s-all .content-all h4 {
+    margin: 1rem 0 3rem;
+    position: relative;
+  }
+  section.s-all .content-all p {
+    position: relative;
+  }
+  section.s-all {
+    padding: 5rem 2rem;
+    background-position: 85%;
+    position: relative;
+  }
+  .content-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  section.s-cover-contact {
+    height: 23rem;
+  }
+  section.s-cover-contact .container .heading-cv-contact h1 {
+    margin: 0 0 1rem;
+    font-size: 3rem;
+  }
+  header nav.menu-primary {
+    display: none;
+  }
+  section.s-tb-pos .container {
+    flex-direction: column;
+  }
+  section.s-tb-pos .container .box-select-area {
+    height: auto;
+    max-width: 100%;
+    position: relative;
+  }
+  section.s-tb-pos .container .box-cards-area {
+    max-width: 100%;
+    justify-content: space-around;
+    width: 100%;
+  }
+  section.s-tb-pos .container .box-select-area p {
+    text-align: center;
+  }
+  section.s-tb-pos .container .box-cards-area .card-area {
+    max-width: 46%;
+    width: 100%;
+  }
+  nav.list-bt-area ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  section.s-cover-curses .container .heading-curses-contact h1 {
+    font-size: 3.5rem;
+  }
+  div#colapse-curses h2 button {
+    font-size: 2.5rem;
+    letter-spacing: -0.1rem;
+  }
+  .accordion-body .action-curse {
+    margin-top: 0rem;
+  }
+  .accordion-body .itens-curse .box-iten-curse span {
+    font-size: 1.4rem;
+  }
+  section.destaques
+    main.main-dest
+    .container-fluid
+    .slide-curses
+    .box-curse-slide {
+    max-width: 40rem;
+  }
+  section.destaques
+    main.main-dest
+    .container-fluid
+    .slide-curses
+    .box-curse-slide
+    a.bt-auden-matricula {
+    position: relative;
+    margin: 2rem 0 0;
+  }
+  section.why .container .steps-why .step-box {
+    max-width: 70%;
+    margin: 0rem auto 2rem;
+  }
+  section.why .container .steps-why .step-box:last-child {
+    margin-bottom: 0;
+  }
+  section.why .container .steps-why {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    text-align: left;
+    padding: 0;
+  }
+  .modal-body .info-itens {
+    flex-direction: column;
+    text-align: center;
+  }
+  .vagas {
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  .action-buy-curse .price .old-price h3,
+  .action-buy-curse .price .new-price h3 {
+    font-size: 2.5rem;
+  }
+  .modal-auden .modal-dialog {
+    margin: 8rem 0 0 0;
+  }
+  .accordion-body .description,
+  .modal-body .description {
+    padding: 3rem;
+  }
+  button.bt-coupon,
+  .bt-matricula {
+    padding: 16.5px 0;
+  }
+  .modal-auden .modal-dialog .modal-content .modal-header {
+    padding: 2rem;
+  }
+  .steps-title .space {
+    width: 0.9rem;
+    height: 0.3rem;
+    margin: 0 0.6rem;
+  }
+  .success-modal {
+    text-align: center;
+  }
+  .social-success {
+    flex-direction: column;
+  }
+  .social-success h4 {
+    color: var(--roxo);
+    margin: 0 0 2rem;
+  }
+  .social-success .list-social-modal li {
+    margin: 0 1rem;
+  }
+  div#modal-video .modal-body .video-auden {
+    height: 27.3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 52%;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  section.solutions .container .box-solution {
+    max-width: 90%;
+    border-right: 0;
+    border-top: 0.1rem solid var(--cinza-border);
+    border-bottom: 0;
+    height: auto;
+    padding: 4rem 0rem;
+    margin: 0 auto;
+  }
+  section.solutions .container .box-solution:hover {
+    transform: scale(1);
+    box-shadow: none;
+    border-bottom: 0;
+    border-radius: 0;
+    border-right: 0;
+    border-color: var(--cinza-border);
+  }
+  section.solutions .container .box-solution:first-child {
+    border: 0;
+  }
+  section.solutions .container .box-solution:nth-child(3):hover,
+  section.solutions .container .box-solution:nth-child(4):hover {
+    border-top: 0.1rem solid var(--cinza-border);
+  }
+  .video-overlay {
+    height: 13rem;
+  }
+  section.services .container .box-services {
+    max-width: 100%;
+    border-radius: 1rem !important;
+    padding: 3rem 3rem;
+    height: 30rem;
+  }
+  section.video .container .video-overlay button.bt-video i img {
+    width: 100%;
+  }
+  section.video .container .video-overlay button.bt-video {
+    width: 3.5rem;
+  }
+  section.team {
+    padding: 4rem 0 6rem;
+  }
+  section.contact {
+    padding: 4rem 0;
+  }
+  section.contact .container form .form-group input {
+    padding: 0 1.3rem;
+  }
+  section.contact .container form .form-group .send-form {
+    padding: 0;
+  }
+  footer .container .left-footer .row-info .icon-footer {
+    margin-right: 2rem;
+  }
+  footer .container .left-footer {
+    margin-bottom: 8rem;
+  }
+  footer .container .right-footer .colunm-footer h3 {
+    margin-bottom: 3rem;
+  }
+  footer .container .right-footer .colunm-footer {
+    margin-bottom: 5rem;
+  }
+  .copy {
+    margin-top: 5rem;
+  }
+  .copy p {
+    font-size: 1rem;
+  }
+  section.s-cover {
+    height: 35rem;
+  }
+  section.s-cover .down-bar {
+    height: 5rem;
+  }
+  section.s-cover .down-bar .container {
+    justify-content: center;
+  }
+  section.s-testimonials {
+    padding: 3rem 0;
+  }
+  section.s-testimonials .container .action-bar {
+    width: 90%;
+    margin: 0 auto 5rem;
+  }
+  section.s-testimonials .container .action-bar a {
+    width: 100%;
+  }
+  section.s-testimonials .container .slide-testimonials .card-test {
+    margin: 0;
+  }
+  section.s-testimonials .container .slide-testimonials .slick-dots {
+    margin: 3rem 0 0;
+  }
+  section.s-diretriz .container .heading-dir h2 {
+    font-size: 2.8rem;
+  }
+  section.s-diretriz .container .box-diretriz .square .iten-sq {
+    width: 3rem;
+    height: 3rem;
+  }
+  section.s-diretriz .container .box-diretriz .square {
+    margin-right: 2.5rem;
+  }
+  section.s-diretriz .container .box-diretriz .content-diretriz p {
+    font-size: 1.4rem;
+  }
+  section.s-diretriz .container .box-diretriz .content-diretriz p strong {
+    font-size: 1.6rem;
+  }
+  section.s-form {
+    padding: 3rem 1rem;
+  }
+  section.s-form .form-auden button.send-form {
+    width: 100%;
+  }
+  form.form-auden {
+    margin-top: 5rem;
+  }
+  section.s-tb-pos {
+    padding: 5rem 0;
+  }
+  section.s-tb-pos .container .box-cards-area .card-area {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+  }
+  nav.list-bt-area ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  nav.pagination {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  section.s-tb-pos .container .heading-pos h2 {
+    font-size: 2.5rem;
+    max-width: 26rem;
+    margin: 1rem 0 0;
+  }
+  section.s-cover-curses .container .heading-curses-contact h1 {
+    font-size: 3rem;
+  }
+  section.s-cover-curses {
+    height: 23rem;
+  }
+  div#colapse-curses h2 button {
+    padding: 0rem 2rem;
+    height: 7rem;
+    font-size: 1.8rem;
+    letter-spacing: -0.1rem;
+  }
+  div#colapse-curses .accordion-item {
+    margin-bottom: 1rem;
+  }
+  .accordion-body {
+    padding: 0 2rem 2rem;
+  }
+  .accordion-body .action-curse .form-auden {
+    max-width: 100%;
+    width: 100%;
+    margin: 2.5rem 0 0;
+  }
+  .register-area {
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+  }
+  .register-area a {
+    width: 100%;
+    margin: 0;
+  }
+  .accordion-body .description {
+    margin: 3rem 0 0;
+    padding: 2rem;
+  }
+  .register-area .price {
+    margin: 2rem 0;
+    font-size: 4rem;
+  }
+  section.destaques
+    main.main-dest
+    .container-fluid
+    .slide-curses
+    .box-curse-slide {
+    max-width: 30rem;
+    margin: 0 0.5rem;
+    padding: 3rem;
+  }
+  section.destaques
+    main.main-dest
+    .container-fluid
+    .slide-curses
+    .box-curse-slide
+    h3 {
+    color: var(--turquesa);
+    font-size: 2rem;
+    -webkit-line-clamp: 3;
+  }
+  section.destaques
+    main.main-dest
+    .container-fluid
+    .slide-curses
+    .box-curse-slide
+    h5 {
+    font-size: 1.8rem;
+  }
+  section.destaques
+    main.main-dest
+    .container-fluid
+    .slide-curses
+    .box-curse-slide
+    .price
+    p {
+    font-size: 1.4rem;
+  }
+  section.destaques
+    main.main-dest
+    .container-fluid
+    .slide-curses
+    .box-curse-slide
+    .price
+    .old-price {
+    font-size: 1.8rem;
+  }
+  section.destaques
+    main.main-dest
+    .container-fluid
+    .slide-curses
+    .box-curse-slide
+    .price
+    .new-price {
+    font-size: 2.5rem;
+  }
+  section.destaques
+    main.main-dest
+    .container-fluid
+    .slide-curses
+    .box-curse-slide
+    a.bt-auden-matricula
+    span {
+    font-size: 1.6rem;
+  }
+  section.destaques .container .heading-dest .title-dest h2 {
+    font-size: 2.5rem;
+  }
+  section.destaques .container .heading-dest {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5.5rem;
+    flex-direction: column;
+    text-align: center;
+  }
+  section.destaques .container .heading-dest .title-dest hr {
+    margin: 2rem auto;
+  }
+  section.destaques {
+    padding: 4rem 0;
+  }
+  .box-curse-slide.slick-center {
+    background: var(--verde-agua) !important;
+  }
+  .box-curse-slide.slick-center h3,
+  .box-curse-slide.slick-center .price p,
+  .box-curse-slide.slick-center .price .old-price,
+  .box-curse-slide.slick-center .price .new-price,
+  .box-curse-slide.slick-center a.bt-auden-matricula {
+    color: var(--branco) !important;
+  }
+  section.why .container .steps-why .step-box {
+    max-width: 90%;
+    margin: 1rem auto;
+    width: 100%;
+  }
+  section.why .container .title-why p {
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+  }
+  section.why {
+    padding: 4rem 0;
+  }
+  section.why .container .steps-why p {
+    font-size: 1.5rem;
+  }
+  section.services {
+    padding: 0 0 4rem;
+  }
+  section.team .container .heading h3 {
+    font-size: 2.5rem;
+  }
+  .modal-auden .container {
+    height: 100%;
+    padding: 0;
+  }
+  .modal-auden .modal-dialog .modal-content {
+    border-radius: 0;
+    overflow: hidden;
+    border: 0;
+  }
+  .modal-auden .modal-dialog {
+    margin: 6rem 0 0 0;
+  }
+  .modal-auden .modal-dialog .modal-content .modal-header {
+    padding: 2rem 2rem;
+  }
+  .modal-auden .modal-dialog .modal-content .modal-body {
+    padding: 3rem 2rem;
+  }
+  .action-buy-curse .price .old-price h3,
+  .action-buy-curse .price .new-price h3 {
+    font-size: 2rem;
+  }
+  button.bt-coupon,
+  .bt-matricula,
+  .content-enem .group-form input.btn-enem {
+    padding: 12px 0;
+    font-size: 1.4rem;
+    height: auto;
+  }
+  .coupon form.form-auden .form-group,
+  .coupon form.form-auden .form-group input {
+    height: 5rem;
+  }
+  .modal-auden .modal-dialog .modal-content .modal-header h2 {
+    font-size: 1.8rem;
+  }
+  .modal-auden .modal-dialog .modal-content .modal-header .steps-title h2 {
+    font-size: 1.4rem;
+  }
+  .modal-auden
+    .modal-dialog
+    .modal-content
+    .modal-header
+    .steps-title
+    h2.gray-four
+    span {
+    margin-left: 0.5rem;
+    font-size: 1.8rem;
+  }
+  .modal-auden
+    .modal-dialog
+    .modal-content
+    .modal-header
+    .steps-title
+    h2.gray-four {
+    font-size: 1.2rem;
+  }
+  form.form-auden-modal .radio-style-modal label {
+    padding: 1.5rem;
+  }
+  form.form-auden-modal .group-form input[type="text"] {
+    padding: 1.5rem;
+  }
+  .content-step-modal h3 {
+    text-align: center;
+    line-height: 150%;
+    margin: 0 0 2rem;
+  }
+  .content-step-modal h5 {
+    text-align: center;
+    line-height: 150%;
+  }
+  .box-select-curse {
+    flex-direction: column;
+    text-align: center;
+    padding: 3rem 1rem;
+  }
+  .box-select-curse .image-mec img {
+    width: 10rem;
+  }
+  .box-select-curse .price-curse-box .new-price h3 {
+    font-size: 2rem;
+  }
+  .box-select-curse .title-curse-box strong {
+    margin-top: 2rem;
+  }
+  .box-select-curse .price-curse-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+  }
+  .box-select-curse .price-curse-box .new-price {
+    margin-top: 0;
+    text-align: left;
+  }
+  form.form-auden-modal .buy-curse .content-lock {
+    justify-content: center;
+  }
+  form.form-auden-modal .buy-curse .content-lock p {
+    max-width: 28rem;
+    font-size: 1.4rem;
+    margin-left: 1rem;
+  }
+  .content-enem form.form-auden-modal .group-form input[type="text"] {
+    padding: 0 1.5rem;
+    text-align: center;
+  }
+  .content-enem .description-enem p {
+    line-height: 2.5rem;
+  }
+  .content-redacao .form-auden-modal .count-caractere {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    margin: 2rem 0;
+    top: 0;
+  }
+  .heading-modal p {
+    text-align: center;
+    max-width: 90%;
+    margin: 1rem auto;
+  }
+  .heading-modal strong {
+    text-align: center;
+    display: block;
+    margin: 0 0 0.5rem;
+  }
+  .heading-modal h3 {
+    max-width: 200px;
+    margin: 0 auto;
+  }
+  .content-lock label {
+    margin-left: 1rem;
+  }
+  .modal-auden .modal-dialog .modal-content .modal-header button.btn-close {
+    background-size: 1rem;
+    margin: 0;
+  }
+  .social-success .list-social-modal li a img {
+    width: 4rem;
+  }
+  .slide-curses .slick-next {
+    right: 2rem;
+  }
+  .slide-curses .slick-prev {
+    left: 2rem;
+  }
+  section.s-diretriz .container .box-diretriz .square .iten-sq span {
+    font-size: 1.4rem;
+  }
+  div#modal-video .modal-body .video-auden {
+    height: 25.3rem;
+  }
+}

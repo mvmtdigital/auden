@@ -1,0 +1,212 @@
+/*menu mobile*/
+section.side-menu-wrapper.active {
+  opacity: 1;
+}
+.side-menu-wrapper {
+  padding: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  z-index: 9999999;
+  transition: 0.5s;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  background: var(--azul);
+  border: 0;
+  display: none;
+  opacity: 0;
+}
+.side-menu-wrapper > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow-y: auto;
+  text-align: center;
+}
+.side-menu-wrapper > ul > li > a {
+  display: block;
+  border-bottom: 1px solid #131313;
+  padding: 10px 0 0;
+  color: #ffffff;
+  transition: 0.3s;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Roboto Condensed;
+  font-size: 15px;
+  border-bottom: 2px solid transparent;
+  font-weight: bold;
+}
+.side-menu-wrapper > ul > li > a:focus {
+  border-bottom-color: #fff;
+}
+.side-menu-wrapper > a.menu-close {
+  padding: 8px 0 4px 23px;
+  color: #6b6b6b;
+  display: block;
+  margin: -30px 0 -10px -20px;
+  font-size: 35px;
+  text-decoration: none;
+}
+.menu-overlay {
+  height: 100%;
+  position: fixed;
+  z-index: 999999;
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  text-align: center;
+  transition: opacity 1s;
+}
+nav#menu-mobile a {
+  color: #fff;
+  padding: 13px 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: Roboto Condensed;
+  font-size: 15px;
+}
+nav#menu-mobile li:first-child a {
+  color: red;
+}
+ul.menu-top-mobile {
+  text-align: center;
+  padding: 6px 0 0;
+  margin: 0;
+}
+a.link-menu-mob.active {
+  border-bottom-color: #fff;
+}
+nav#menu-mobile {
+  margin: 20px 0;
+}
+nav#menu-mobile a:hover {
+  background: #222;
+}
+
+button.menu-close {
+  background: none;
+  padding: 0;
+  border: 1px solid var(--turquesa);
+  background: var(--turquesa);
+  border-radius: 0.8rem;
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+button.menu-close span {
+  font-size: 1.6rem;
+  color: var(--azul);
+  transition: all 0.3s ease;
+}
+
+button.menu-close:hover span {
+  color: var(--azul);
+}
+
+button.menu-close:hover {
+  background: var(--turquesa);
+}
+
+.area-navigation-mobile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  padding: 0rem 3rem;
+}
+
+.area-navigation-mobile nav.actions-header ul {
+  display: flex;
+  align-items: center;
+}
+
+.area-navigation-mobile nav.actions-header ul li:last-child {
+  margin-left: 2rem;
+}
+
+.area-navigation-mobile nav.actions-header ul li a {
+  border: 0.1rem solid var(--turquesa);
+  padding: 0.5rem 2.5rem;
+  border-radius: 1.7rem;
+  text-transform: uppercase;
+  color: var(--branco);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 3.4rem;
+}
+
+.area-navigation-mobile nav.actions-header ul li a:hover {
+  background-color: var(--turquesa);
+  color: var(--azul);
+}
+
+.area-navigation-mobile nav.actions-header ul li a span {
+  font-size: 1.2rem;
+  margin-right: 1rem;
+  font-weight: 500;
+}
+
+.area-navigation-mobile nav.actions-header ul li a .icon-azul {
+  position: absolute;
+  right: 2.5rem;
+  z-index: -1;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.area-navigation-mobile nav.actions-header ul li a .icon-turquesa {
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+
+.area-navigation-mobile nav.actions-header ul li a:hover .icon-azul {
+  z-index: 9;
+  opacity: 1;
+}
+
+.area-navigation-mobile nav.menu-mobile ul li a {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 700;
+  display: block;
+  padding: 1rem 0;
+  text-transform: uppercase;
+}
+
+.area-navigation-mobile nav.menu-mobile ul li a:hover {
+  color: var(--turquesa);
+}
+
+.area-navigation-mobile nav.menu-mobile {
+  margin: 5rem 0;
+}
+
+.area-navigation-mobile nav.info-mobile ul li a span {
+  color: #fff;
+}
+
+.area-navigation-mobile nav.info-mobile ul li a i {
+  margin-right: 1rem;
+}
+
+.area-navigation-mobile nav.info-mobile ul li:last-child a {
+  padding: 0;
+}
+
+.area-navigation-mobile nav.info-mobile ul li a {
+  padding: 0 0 1rem;
+  display: block;
+}

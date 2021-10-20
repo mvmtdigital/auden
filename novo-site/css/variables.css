@@ -1,0 +1,18 @@
+:root {
+  --azul: #071446;
+  --azul-opacity: rgba(7, 19, 70, 0.4);
+  --turquesa: #00fee9;
+  --branco: #fff;
+  --cinza-texto: #6d6d6d;
+  --cinza-box: #a7a7a7;
+  --cinza-footer: #7f7d7d;
+  --cinza-form: #f6f6f6;
+  --cinza-bar: #949494;
+  --cinza-testmonials: #4b4b4b;
+  --cinza-square: #efefef;
+  --verde-bg: rgb(0 107 129 / 90%);
+  --roxo: #486bfc;
+  --verde-agua: #00cfbe;
+  --azul-escuro: #0c1744;
+  --verde-bt: #30c688;
+}

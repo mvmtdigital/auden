@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-family: "Poppins", sans-serif;
+    outline: none;
+  }
+  
+  html {
+    font-size: 62.5%;
+    display: block;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  button,
+  a {
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease;
+    text-decoration: none;
+  }
+  
+  ol,
+  ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+  }
+  
